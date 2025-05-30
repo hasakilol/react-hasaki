@@ -1,5 +1,5 @@
 {
-  "name": "react@hasakilol",
+  "name": "@hasakilol/react",
   "version": "0.0.1",
   "description": "react from hasakilol",
   "repository": "https://github.com/hasakilol/react-hasaki.git",
@@ -21,6 +21,10 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.23",
