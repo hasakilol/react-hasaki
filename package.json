@@ -1,6 +1,6 @@
 {
   "name": "@hasakilol/react",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "react from hasakilol",
   "repository": "https://github.com/hasakilol/react-hasaki.git",
   "module": "dist/esm/index.js",
@@ -24,13 +24,16 @@
   },
   "peerDependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "umi": "^4.3.14"
   },
   "devDependencies": {
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
+    "@umijs/plugins": "^4.4.11",
     "father": "^4.5.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "umi": "^4.4.11"
   }
 }

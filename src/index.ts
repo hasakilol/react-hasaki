@@ -1,1 +1,2 @@
-export default 'Hello father 4!';
+export { Hello } from './components/Hello';
+export { HelloUmi } from './components/HelloUmi';
